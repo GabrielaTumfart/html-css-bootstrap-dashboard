@@ -73,6 +73,30 @@
                 placeholder="Inserisci il titolo del libro" required>
         </div>
 
+        <!-- Genere, Anno, ISBN -->
+        <div class="row g-3 mb-4">
+            <div class="col-12 col-md-4">
+                <label for="genere" class="form-label">Genere</label>
+                <select class="form-select" id="genere" name="genere" required>
+                    <option selected disabled>Scegli il genere</option>
+                    <option value="narrativa">Narrativa</option>
+                    <option value="saggistica">Saggistica</option>
+                    <option value="bambini-ragazzi">Bambini e ragazzi</option>
+                    <option value="manuali">Manuali</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-4">
+                <label for="annoPubblicazione" class="form-label">Anno di Pubblicazione</label>
+                <input type="number" class="form-control" id="annoPubblicazione" name="annoPubblicazione"
+                    placeholder="Inserisci l'anno">
+            </div>
+            <div class="col-12 col-md-4">
+                <label for="isbn" class="form-label">ISBN#</label>
+                <input type="text" class="form-control" id="isbn" name="isbn"
+                    placeholder="Inserisci il codice ISBN#">
+            </div>
+        </div>
+
 
 
 
